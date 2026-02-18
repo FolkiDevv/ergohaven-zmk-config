@@ -5,6 +5,16 @@
 #include <dt-bindings/zmk/outputs.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        lang {
+            bindings = <&kp LG(SPACE)>;
+            key-positions = <28 27>;
+            layers = <0>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
